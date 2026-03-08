@@ -34,39 +34,44 @@ Users can register, log in, and manage their tasks securely using **JWT authenti
 ## Project Structure
 
 
+```
 backend/
 │
 ├── routes/
-│ ├── tasks.py
-│ └── users.py
+│   ├── tasks.py
+│   └── users.py
 │
 ├── auth.py
 ├── database.py
 ├── main.py
 ├── models.py
 └── schemas.py
+```
 
-
----
 
 ## Installation
 
 Clone the repository
 
 
+```
 git clone https://github.com/komalkowshikkanuri-dotcom/fastapi-task-manager-backend
+```
 
 
 Install dependencies
 
 
+```
 pip install -r requirements.txt
+```
 
 
 Run the server
 
-
+```
 uvicorn backend.main:app --reload
+```
 
 
 ---
@@ -76,8 +81,14 @@ uvicorn backend.main:app --reload
 After running the server open:
 
 
+```
 http://127.0.0.1:8000/docs
+```
 
+
+### Swagger UI
+
+![API Docs](image.png)
 
 ---
 
